@@ -3,6 +3,8 @@
 
 int main()
 {
-    printf("E ai, cara?\n");
+	char nome[42];
+	scanf ("%s", &nome);
+    printf("Seu nome: %s ", nome);
     return 0;
 }
